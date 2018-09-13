@@ -10,7 +10,7 @@ public class OpeningBrowser {
 		WebDriver driver=new FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.seleniumhq.org/download/");
-		
+		System.out.println("hi");
 		
 		
 	}
